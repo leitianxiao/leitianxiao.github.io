@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title> Hexo</title>
+      <title> leitianxiao</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -31,7 +31,7 @@
 
       <!-- mermaid -->
       
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="leitianxiao" type="application/atom+xml">
 </head>
   </html>
 </html>
@@ -45,17 +45,12 @@
       
 <section class="cover">
     
-      
-      <a class="forkMe" href="https://github.com/Shen-Yu/hexo-theme-ayer"
-        target="_blank"><img width="149" height="149" src="/images/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-    
   <div class="cover-frame">
     <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
+      <img src="/images/cover8.jpg" alt="image frame" />
     </div>
     <div class="cover-inner text-center text-white">
-      <h1><a href="/">Hexo</a></h1>
+      <h1><a href="/">leitianxiao</a></h1>
       <div id="subtitle-box">
         
         <span id="subtitle"></span>
@@ -81,7 +76,7 @@
   <script>
     try {
       var typed = new Typed("#subtitle", {
-        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+        strings: ['留住温度、速度、温柔和愤怒。', '留住温度、速度、温柔和愤怒。', '留住温度、速度、温柔和愤怒。'],
         startDelay: 0,
         typeSpeed: 200,
         loop: true,
@@ -99,14 +94,8 @@
   <ul class="ads">
     
         <li>
-            <a target="_blank" rel="noopener" href="https://curl.qcloud.com/kvO7hb43">
-                <img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/ten_1.jpg" width="300" alt="云服务器限时秒杀">
-            </a>
-        </li>
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=8630075">
-                <img src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/vultr.png" width="300" alt="vultr优惠vps">
+            <a href="">
+                <img src="" width="" alt="">
             </a>
         </li>
     
@@ -159,6 +148,149 @@
     
     
     
+    
+    <article
+  id="post-gitee-hexo搭建个人博客"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2021/07/03/gitee-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"
+    >gitee+hexo搭建个人博客</a> 
+</h2>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2021/07/03/gitee-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="article-date">
+  <time datetime="2021-07-02T16:28:08.000Z" itemprop="datePublished">2021-07-03</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/2021/">2021</a>
+  </div>
+   
+    </div>
+      
+    <div class="article-entry" itemprop="articleBody">
+       
+  <p>（由于gitee网站正在进行绿色网络环境改造，服务改造结束前，无法开通新的Gitee Pages服务！！要等网站改造好！！！！未完成，差最后一步！）</p>
+<h3 id="一、前置准备"><a href="#一、前置准备" class="headerlink" title="一、前置准备"></a>一、前置准备</h3><ol>
+<li>git （管理代码）</li>
+<li>node.js（hexo环境依赖）</li>
+</ol>
+<h3 id="二、hexo搭建个人博客"><a href="#二、hexo搭建个人博客" class="headerlink" title="二、hexo搭建个人博客"></a>二、hexo搭建个人博客</h3><ol>
+<li><p>安装hexo：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo   #我装了cnpm，所以可能后面会看到npm变成cnpm，都一样</span><br></pre></td></tr></table></figure></li>
+<li><p>初始化创建</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init /Users/leitianxiao/Documents/700_TestDev/blog</span><br></pre></td></tr></table></figure>
+<p>这样hexo就安装完成了。</p>
+</li>
+</ol>
+<p> <img src="https://pic.imgdb.cn/item/60df3f4e5132923bf887e9ec.png"></p>
+<ol start="3">
+<li><p>安装hexo所需要的其它文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /Users/leitianxiao/Documents/700_TestDev/blog #进入文件夹</span><br><span class="line">npm install # 安装hexo所需文件</span><br></pre></td></tr></table></figure>
+<p><img src="https://pic.imgdb.cn/item/60df3f6e5132923bf8893816.jpg"></p>
+</li>
+<li><p>启动hexo</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  # 清除所有记录</span><br><span class="line">hexo generate	# 生成静态网页</span><br><span class="line">hexo server -p 80  # 启动服务,80为端口号</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><img src="https://pic.imgdb.cn/item/60df3f8f5132923bf88a8ed1.jpg"></p>
+<ol start="5">
+<li>访问<a target="_blank" rel="noopener" href="http://localhost/">http://localhost:80</a></li>
+</ol>
+<h3 id="三、主题配置"><a href="#三、主题配置" class="headerlink" title="三、主题配置"></a>三、主题配置</h3><ol>
+<li><p>挑选主题</p>
+<p> 可以在<a target="_blank" rel="noopener" href="https://hexo.io/themes/%E6%8C%91%E9%80%89%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E4%B8%BB%E9%A2%98%E3%80%82">https://hexo.io/themes/挑选自己喜欢主题。</a></p>
+<p> 我选择了这个主题：<a target="_blank" rel="noopener" href="https://github.com/miccall/hexo-theme-Mic_Theme">https://github.com/miccall/hexo-theme-Mic_Theme</a></p>
+<p> 下载压缩包放到blog下的themes目录下。</p>
+</li>
+</ol>
+<p><img src="https://pic.imgdb.cn/item/60df40855132923bf894c684.jpg"></p>
+<ol start="2">
+<li><p>修改配置</p>
+<p> 修改根目录的配置文件<code>_config.yml</code>文件中的theme的值。(确保themes目录下的文件名和配置文件的名字一样即可)</p>
+ <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">daybreak</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p><img src="https://pic.imgdb.cn/item/60df409c5132923bf895eed3.jpg"></p>
+<ol start="3">
+<li><p>重启hexo服务</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  # 清除所有记录</span><br><span class="line">hexo generate	# 生成静态网页</span><br><span class="line">hexo server -p 80  # 启动服务,80为端口号</span><br></pre></td></tr></table></figure>
+<p> 再访问<a target="_blank" rel="noopener" href="http://localhost/">http://localhost:80</a> ，主题就会变为我们喜欢的主题了。</p>
+</li>
+</ol>
+<h3 id="四、生成博客文章"><a href="#四、生成博客文章" class="headerlink" title="四、生成博客文章"></a>四、生成博客文章</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new test	 # 会生成一个test.md在/source/_posts下</span><br></pre></td></tr></table></figure>
+
+<h3 id="五、上传到gitee"><a href="#五、上传到gitee" class="headerlink" title="五、上传到gitee"></a>五、上传到gitee</h3><ol>
+<li><p>在gitee创建自己的账户</p>
+<p> <a target="_blank" rel="noopener" href="https://gitee.com/">https://gitee.com/</a></p>
+</li>
+<li><p>新建一个仓库</p>
+<p> (由于有个操作搞乱了文件夹，新建了一个myblog的文件夹，相当于前面的blog就好)</p>
+</li>
+</ol>
+<p><img src="https://pic.imgdb.cn/item/60df40b65132923bf8975cdd.jpg"></p>
+<p>进入仓库，获得仓库的地址：<a target="_blank" rel="noopener" href="https://gitee.com/leitianxiao/myblog.git">https://gitee.com/leitianxiao/myblog.git</a></p>
+<ol start="3">
+<li><p>复制URL，到hexo的配置文件<code>_config.yml</code></p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git         # type为git</span><br><span class="line">  repo: https://gitee.com/leitianxiao/myblog.git # 仓库的URL</span><br></pre></td></tr></table></figure>
+
+</li>
+<li><p>Git全局设置（建完仓库时，页面会提示，可以直接复制你的）</p>
+<p> 需要先装一个hexo的插件</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<p> 全局配置：</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;xx&quot; # 设置用户名（git的注册昵称）</span><br><span class="line">git config --global user.email &quot;xx@126.com&quot; # 设置gitee邮箱（gitee的注册邮箱）</span><br></pre></td></tr></table></figure></li>
+<li><p>上传到gitee</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p><img src="https://pic.imgdb.cn/item/60df40de5132923bf89910f7.jpg"></p>
+</li>
+</ol>
+<h3 id="六、gitee-pages-网页解析服务"><a href="#六、gitee-pages-网页解析服务" class="headerlink" title="六、gitee pages 网页解析服务"></a>六、gitee pages 网页解析服务</h3><p><img src="https://pic.imgdb.cn/item/60df40f15132923bf899e670.jpg"></p>
+<p>最后一步被卡住了。等待开放吧。我也不知道能不能成功。。。醉了。</p>
+<p><img src="https://pic.imgdb.cn/item/60df41125132923bf89b45f6.jpg"></p>
+<h3 id="七、遇到问题"><a href="#七、遇到问题" class="headerlink" title="七、遇到问题"></a>七、遇到问题</h3><ol>
+<li><p>Hexo启动页面显示extends includes/layout.pug block content include includes/recent-posts.pug include</p>
+<p> <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_44318830/article/details/104884936">https://blog.csdn.net/weixin_44318830/article/details/104884936</a></p>
+</li>
+<li><p>一些好看的hexo主题</p>
+<p> <a target="_blank" rel="noopener" href="https://www.zhihu.com/question/24422335">https://www.zhihu.com/question/24422335</a></p>
+</li>
+<li><p>hexo deploy后， ERROR Deployer not found: git</p>
+<p> <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_36401046/article/details/52940313">https://blog.csdn.net/weixin_36401046/article/details/52940313</a></p>
+</li>
+<li><p>本地图片引用了却无法显示</p>
+<p> 使用图床：<a target="_blank" rel="noopener" href="https://www.superbed.cn/">https://www.superbed.cn/</a> 或者引用本地图片。为了防止路径出错，建议使用图床。</p>
+</li>
+</ol>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <footer class="article-footer">
+       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li></ul>
+
+    </footer>
+  </div>
+
+    
+ 
+    
+</article>
+
     
     <article
   id="post-hello-world"
@@ -232,7 +364,7 @@
     <ul>
       <li>
         Copyrights &copy;
-        2015-2021
+        2021
         <i class="ri-heart-fill heart_icon"></i> John Doe
       </li>
     </ul>
@@ -291,7 +423,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hexo"></a>
+    <a href="/"><img src="/images/ayer-side.svg" alt="leitianxiao"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -317,15 +449,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
+      <a class="nav-item-link" target="_blank" rel="noopener" href="https://bujuexiao-photo.lofter.com/">摄影</a>
     </li>
     
   </ul>
@@ -338,10 +462,6 @@
         <i class="ri-search-line"></i>
       </a>
       
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
       
     </li>
   </ul>
@@ -358,17 +478,17 @@
 <!-- #reward -->
 <div id="reward">
   <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <p class="reward-p"><i class="ri-cup-line"></i>不在于金额多少，而让我更有动力！</p>
   <div class="reward-box">
     
     <div class="reward-item">
-      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg">
+      <img class="reward-img" src="/images/alipay.png">
       <span class="reward-type">支付宝</span>
     </div>
     
     
     <div class="reward-item">
-      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg">
+      <img class="reward-img" src="/images/wechat.png">
       <span class="reward-type">微信</span>
     </div>
     
@@ -506,7 +626,9 @@
 <script src="/js/busuanzi-2.3.pure.min.js"></script>
  
 <!-- ClickLove -->
-
+ 
+<script src="/js/clickLove.js"></script>
+ 
 <!-- ClickBoom1 -->
 
 <!-- ClickBoom2 -->
@@ -570,7 +692,9 @@
 </script>
  
 <!-- CanvasBackground -->
-
+ 
+<script src="/js/dz.js"></script>
+ 
 <script>
   if (window.mermaid) {
     mermaid.initialize({ theme: "forest" });
@@ -578,6 +702,23 @@
 </script>
 
 
+    
+    <div id="music">
+    
+    
+    
+    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="86"
+        src="//music.163.com/outchain/player?type=2&id=64833&auto=1&height=66"></iframe>
+</div>
+
+<style>
+    #music {
+        position: fixed;
+        right: 15px;
+        bottom: 0;
+        z-index: 998;
+    }
+</style>
     
   </div>
 </body>
